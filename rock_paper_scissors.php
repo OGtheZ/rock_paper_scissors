@@ -15,6 +15,7 @@ echo "You chose $playersChoice and the Computer chose $computersChoice" . PHP_EO
 
 if ($playersChoice === $computersChoice) {
     echo "It's a tie";
+    exit;
 } elseif ($playersChoice === $choice[0] && $computersChoice === $choice[1]) {
     echo "The computer wins with Paper against rock." . PHP_EOL;
     exit;
