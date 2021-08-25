@@ -1,7 +1,6 @@
 <?php
 
 $choice = ["Rock", "Paper", "Scissors"];
-
 $computersChoice = $choice[rand(0,2)];
 
 $input = (int) readline("Enter a choice - 0 : rock, 1 : Paper, 2 : Scissors: ");
